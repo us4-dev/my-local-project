@@ -1,0 +1,306 @@
+/********w-EdhaCare*********/
+.modal-icon{text-align:center;}
+.modal-body h3.title{text-align:center;font-size:30px;}
+.modal-body p.description{font-size:16px;text-align:center;}
+.modal-body button.btn{font-size:16px;font-weight:normal;}
+.modal-body button.btn:hover{font-size:16px;font-weight:normal;}
+.modal-body .btn-group-center {width:324px; margin:0 auto;}
+
+/****************form********************/
+#attendant{display:none;}
+.moreOption{color:#006a4e;border:none;background:none;}
+.title_attendant{font-weight:600; font-size:16px;}
+.remove_field{height:60px;height: 40px;display: block;text-align: right;}
+.remove_field i{color:#006a4e; font-size:20px;}
+#Addbutton{border:none;background:none;color:#006a4e;}
+.attendant_show{animation: 1s ease-out 0s 1 slideInFromLeft; background:#fff;}
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateY(-15%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  #add_more_option, #add_more_option2{display:none;}
+
+
+/************************Doctors-profile************************************/
+.serviceBox{
+    padding: 10px 10px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-bottom-color: #006a4e;
+    text-align: center;
+    position: relative;
+    transition: all 0.5s ease 0s;
+}
+.serviceBox:hover{ border: 1px solid #006a4e; }
+.serviceBox:before,
+.serviceBox:after{
+    content: "";
+    width: 70%;
+    height: 5px;
+    background: #dc3545;
+    opacity: 0;
+    position: absolute;
+    top: -3px;
+    left: 35%;
+    transform: translateX(-50%);
+    transition: all 0.5s ease 0s;
+}
+.serviceBox:hover:before,
+.serviceBox:hover:after{
+    opacity: 1;
+    left: 50%;
+}
+.serviceBox:after{
+    top: auto;
+    bottom: -3px;
+}
+
+.serviceBox .title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #252525;
+    margin: 0 0 10px 0;
+    transition: all 0.5s ease 0s;
+}
+.serviceBox:hover .title{ opacity: 0; }
+.serviceBox .description{
+    font-size: 14px;
+    text-align:left;
+    color: #7a7a7a;
+    line-height: 25px;
+    margin: 0;
+    transition: all 0.5s ease 0s;
+}
+.serviceBox:hover .description{
+    margin-top: -20px;
+    padding-bottom: 20px;
+}
+@media only screen and (max-width:990px){
+    .serviceBox{ margin-bottom: 30px; }
+}
+
+/**************************patient-profile-details****************/
+.padding {
+    padding: 3rem !important
+}
+
+.user-card-full {
+    overflow: hidden
+}
+
+.card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+    box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+    border: none;
+    margin-bottom: 30px
+}
+
+.m-r-0 {
+    margin-right: 0px
+}
+
+.m-l-0 {
+    margin-left: 0px
+}
+
+.user-card-full .user-profile {
+    border-radius: 5px 0 0 5px
+}
+
+.bg-c-lite-user-details {
+      background: #006a4e57;
+}
+
+.user-profile {
+    padding: 20px 0
+}
+
+.card-block {
+    padding: 1.25rem
+}
+
+.m-b-25 {
+    margin-bottom: 25px
+}
+
+.img-radius {
+    border-radius: 5px
+}
+
+h6 {
+    font-size: 14px
+}
+
+.card .card-block p {
+    line-height: 25px
+}
+
+@media only screen and (min-width: 1400px) {
+    p {
+        font-size: 14px
+    }
+}
+
+.card-block {
+    padding: 1.25rem
+}
+
+.b-b-default {
+    border-bottom: 1px solid #e0e0e0
+}
+
+.m-b-20 {
+    margin-bottom: 20px
+}
+
+.p-b-5 {
+    padding-bottom: 5px !important
+}
+
+.card .card-block p {
+    line-height: 25px
+}
+
+.m-b-10 {
+    margin-bottom: 10px
+}
+
+.text-muted {
+    color: #919aa3 !important
+}
+
+.b-b-default {
+    border-bottom: 1px solid #e0e0e0
+}
+
+.f-w-600 {
+    font-weight: 600
+}
+
+.m-b-20 {
+    margin-bottom: 20px
+}
+
+.m-t-40 {
+    margin-top: 20px
+}
+
+.p-b-5 {
+    padding-bottom: 5px !important
+}
+
+.m-b-10 {
+    margin-bottom: 10px
+}
+
+.m-t-40 {
+    margin-top: 20px
+}
+
+
+  /**************************step css*****************************/
+  html {
+	height: 100%;}
+#msform {width: 100%;	margin: 50px auto;	text-align: center;	position: relative;}
+#msform fieldset {	background: white;	border: 0 none;	border-radius: 3px;		
+    padding: 20px 30px;
+	box-sizing: border-box;	width: 100%;	
+	position: relative;
+}
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+	display: none;
+}
+
+/*buttons*/
+#msform .action-button {
+	width: 100px;
+	background: #27AE60;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin: 10px 5px;
+}
+#msform .action-button:hover, #msform .action-button:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+/*headings*/
+.fs-title {
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #2C3E50;
+	margin-bottom: 10px;
+}
+.fs-subtitle {
+	font-weight: normal;
+	font-size: 13px;
+	color: #666;
+	margin-bottom: 20px;
+}
+/*progressbar*/
+#progressbar {
+	margin-bottom: 30px;
+	overflow: hidden;
+	/*CSS counters to number the steps*/
+	counter-reset: step;
+}
+#progressbar li {
+	list-style-type: none;
+	color: #444;
+	text-transform: uppercase;
+	font-size: 9px;
+	width: 33.33%;
+	float: left;
+	position: relative;
+}
+#progressbar li:before {
+	content: counter(step);
+	counter-increment: step;
+	width: 20px;
+	line-height: 20px;
+	display: block;
+	font-size: 10px;
+	color: #333;
+	background: white;
+	border-radius: 3px;
+	margin: 0 auto 5px auto;
+}
+/*progressbar connectors*/
+#progressbar li:after {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: red;
+	position: absolute;
+	left: -50%;
+	top: 9px;
+	z-index: -1; /*put it behind the numbers*/
+}
+#progressbar li:first-child:after {
+	content: none; 
+}
+#progressbar li.active:before,  #progressbar li.active:after{
+	background: #27AE60;
+	color: white;
+}
+.h-80{height:80px;}
+.text-left{text-align:left;}
+.user-menu-icon i{padding-right:10px; font-size:20px;width:40px;}
+.user-menu-icon a{text-decoration:none;color:#444;}
+.read-more a{text-decoration: none;color: #dc3545;}
+.color-red{color: #dd3f4e;}
+.contact-via a i{color:#27AE60; font-size: 16px; padding:5px;}
+.contact-via a{height:60px; width:60px; background: #fff; box-shadow: 0 10px 10px rgb(0,0,0,0.1);
+border-radius: 50%; text-align: center; margin:5px;
+}
+   
+
+/********************************/
